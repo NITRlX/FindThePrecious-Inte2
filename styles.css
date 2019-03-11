@@ -1,0 +1,379 @@
+@font-face {
+    font-family: "Aniron","Tengwar Annatar","Party Business";
+    src: url("anirm___.ttf)"), url("tngan.ttf"), url("partybusiness.ttf");
+}
+
+body {
+    background-image: url(bg_light.png);
+    background-repeat: repeat;
+}
+
+hr {
+    border: 3px solid chocolate;
+    width: 47%;
+    margin-bottom: -1px;
+}
+
+
+/* Titles */
+
+.card {
+    background-image: url(bg_dark.png);
+    background-repeat: repeat;
+}
+
+.card-title-white {
+    padding-left: 3%;
+    font-size: 28px;
+    color: #EEEEEF;
+    font-family: "Aniron";
+}
+
+/* Navbar */
+
+#mainNav {
+    justify-content: space-between;
+}
+
+#mainNav li:hover{
+    text-decoration: underline;
+}
+
+#mainNav li {
+    
+    border-right: 1px solid white;
+}
+
+.navbar {
+    background-color: chocolate;
+}
+
+.navbar a {
+    color: #EEEEEF;
+    font-family: "Aniron";
+}
+
+/* Carousel */
+
+.carousel-control-prev {
+    margin-left: -50px;
+}
+
+/* Fellows part */
+
+.ij {   
+    font-family: "Tengwar Annatar";
+    color: chocolate;
+}
+
+.card-title-black {
+    margin-left: 3%;
+    color: black;
+    font-size: 28px;
+    font-family: "Aniron";
+}
+
+.or-alive {
+    font-size: 22px;
+}
+
+/* Pills Most... */
+
+.most-pills {
+    display: flex;
+    padding-left: 25%;
+    justify-content: space-between;
+}
+
+.most-pills a {
+    font-size: 24px;
+    color: #787878;
+    font-family: "Aniron";
+    
+}
+
+.most-pills a:hover {
+    font-size: 24px;
+    color: chocolate;
+    font-family: "Aniron";
+    text-decoration: underline;
+
+}
+
+.o-hover {
+    display: none;
+    font-family: "Tengwar Annatar";
+}
+
+.most-pills a:hover .o-hover {
+    display: inline-block;
+    color: chocolate;
+    text-decoration: underline;
+}
+
+/* Top 3 cards */
+
+.card-image-gandalf img {
+    display: none;
+}
+
+.card-image-gandalf:hover img {
+    display: block;
+    justify-content: center;
+}
+
+.card-image-arragorn img {
+    display: none;
+}
+
+.card-image-arragorn:hover img {
+    display: block;
+}
+
+.card-image-gimli img {
+    display: none;
+}
+
+.card-image-gimli:hover img {
+    display: block;
+}
+
+.card-image-gandalf {
+    width: 326px;
+    height: 373px;
+    margin: auto;
+    margin-top: 2%;
+    background-image: url(gandalf.png);
+    background-repeat: no-repeat;
+}
+
+.card-image-arragorn {
+    width: 326px;
+    height: 373px;
+    margin: auto;
+    margin-top: 2%;
+    background-image: url(aragorn.png);
+    background-repeat: no-repeat;
+}
+
+.card-image-gimli {
+    width: 326px;
+    height: 373px;
+    margin: auto;
+    margin-top: 2%;
+    background-image: url(gimli.png);
+    background-repeat: no-repeat;
+}
+
+
+.btn-contact {
+    color: chocolate;
+    font-family: "Aniron";
+    border-radius: 0%;
+}
+
+.col-md-2 img {
+    padding: 10%;
+}
+
+
+
+.card-text {
+    font-size: 28px;
+    font-family: "Party Business";
+    color: #EEEEEF;
+}
+
+/* Best Hunters Part */
+
+h4 {
+    color: chocolate;
+    font-family: "Party Business";
+    font-size: 48px;
+}
+
+.media-body p {
+    font-family: "Party Business";
+    font-size: 28px;
+}
+
+.profile {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.media-body img {
+    width: 40%;
+}
+
+/* About The Ring Part */
+
+.entete-about {
+    padding-top: 2%;
+}
+
+.card-header {
+    background-color: chocolate;
+    border: none;
+    color: #EEEEEF;
+    font-family: "Aniron";
+}
+
+
+table {
+    font-family: "Aniron";
+}
+
+td {
+    color: #787878;
+}
+
+.ring-card p {
+    color: black;
+}
+
+.ring-card {
+    padding:2%;
+}
+
+.ring-card2 {
+    padding: 1%;
+}
+
+.ring-card2 p {
+    color: black;
+}
+
+.gollum {
+    font-size: 35px;
+    color: #787878;
+}
+
+/* Join Mordor Part */
+
+.join-card {
+    background-image: url(bg_light.png);
+    background-repeat: repeat;
+}
+
+.text-mordor p{
+    color: black;
+}
+
+.mordor-army img {
+    padding-left: 15%;
+}
+
+.btn-mordor {
+    color: chocolate;
+    font-family: "Aniron";
+    border-radius: 0%;
+}
+
+form {
+    font-family: "Party Business";
+    font-size: 28px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: chocolate;
+    font-family: "Party Business";
+    font-size: 28px;
+}
+
+.footer-col1 li{
+    list-style-type: none;
+    color: #EEEEEF;
+    padding: 1%;
+}
+
+.footer-col1 {
+    padding: 5%;
+}
+
+.footer-col2 li{
+    list-style-type: none;
+    color: #EEEEEF;
+    padding: 1%;
+}
+
+.footer-col2 {
+    padding: 5%;
+}
+
+.footer-col3 li{
+    list-style-type: none;
+    color: #EEEEEF;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.footer-col3 {
+    padding: 5%;
+    padding-top: 10%;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 610px){
+
+    .most-pills {
+        display: inline-block;
+    }
+    .fellows {
+        font-size: 28px;
+    }
+    .or-alive {
+        font-size: 20px;
+    }
+
+   
+}
+@media (max-width: 990px){
+
+    .most-pills {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 1100px){
+    
+    .most-pills {
+        display: inline-block;
+    }
+    .card-image-gandalf img {
+        display: block;
+    }
+
+    .card-image-arragorn img {
+        display: block;
+
+    }
+
+    .card-image-gimli img {
+        display: block;
+    }
+    
+
+    .card-image-gandalf {
+        background-image: none;
+        width: 163px;
+        height: 186px;    
+    }
+
+    .card-image-arragorn {
+        background-image: none;
+        width: 163px;
+        height: 186px;    
+   
+    }
+
+    .card-image-gimli {
+        background-image: none;
+        width: 163px;
+        height: 186px;    
+   
+    }
+}
